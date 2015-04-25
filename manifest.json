@@ -1,0 +1,10 @@
+ {
+  "name": "Like-Confirmator",
+  "version": "1",
+  "description": "Confirm dialog when like button pressed",
+     "manifest_version": 2,
+  "content_scripts": [ {
+    "js": [ "jquery-1.11.2.min.js", "background.js" ],
+    "matches": [ "http://*/*", "https://*/*"]
+  }]
+}
