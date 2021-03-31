@@ -4,10 +4,3 @@ $(".UFILikeLink").click(function (event) {
         event.stopPropagation();
     }
 });
-
-
-
-//click(function() {
-//    //confirm("Like?");
-//  $(this).preventDefault();
-//});
